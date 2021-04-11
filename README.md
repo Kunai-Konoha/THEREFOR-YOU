@@ -6,6 +6,8 @@ This app performs recognition of (Antropogenic Disaster) speech Commands on mobi
 
 Guided from : https://github.com/tensorflow/examples/tree/master/lite/examples/speech_commands/android
 
+Try owr Interface for future : https://www.figma.com/proto/R7fP5qylP8myunm7Yin9vc/hackathon-test?node-id=1%3A734&scaling=min-zoom
+
 <!-- TODO(b/124116863): Add app screenshot. -->
 
 ## Build the demo using Android Studio
