@@ -4,6 +4,8 @@
 
 This app performs recognition of (Antropogenic Disaster) speech Commands on mobile, reacting to the spoken word.
 
+Guided from : https://github.com/tensorflow/examples/tree/master/lite/examples/speech_commands/android
+
 <!-- TODO(b/124116863): Add app screenshot. -->
 
 ## Build the demo using Android Studio
