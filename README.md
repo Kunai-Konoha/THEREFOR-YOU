@@ -1,5 +1,5 @@
 # THEREFOR YOU VERSION 1.0
-
+![picture](Images/im2.png)
 ### Overview
 
 This app performs recognition of (Antropogenic Disaster) speech Commands on mobile, reacting to the spoken word.
@@ -8,7 +8,7 @@ Guided from : https://github.com/tensorflow/examples/tree/master/lite/examples/s
 
 Try our Interface for future : https://www.figma.com/proto/R7fP5qylP8myunm7Yin9vc/hackathon-test?node-id=1%3A734&scaling=min-zoom
 
-
+![picture](Images/im1.png)
 ## Inspiration
 The pandemic has changed the way we live. Public places, streets , restaurants etc have encountered les and less crowd over the past year. We are more isolated in the public places than we ever were before. Now imagine walking home at night all by yourself, with no one around. What happens if you encounter danger? What happens if you are not in a position to reach out for your phone ? What happens if you don't have enough time to use your phone before something bad happens?. Our app therefor YOU comes in handy in all these places.
 We found this research paper to be very helpful while ideating the project:
