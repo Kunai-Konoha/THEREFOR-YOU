@@ -1,4 +1,3 @@
-# THEREFOR YOU VERSION 1.0
 ![picture](Images/im2.png)
 ### Overview
 
@@ -21,12 +20,7 @@ So before going out alone in the places , where you don't feel safe or are not c
 The project starts with the base of machine learning model that predicts Anthropogenic Disaster Audio Identification. With the help of Google's latest technologies like Google cloud and Teachable Machine , we were able to create a Tensor Flow model from various audio data sets ,which we then used in our application while developing it using Java on android studio. We collected various audio data sets from internet which we used to create a model which has better accuracy. 
 With more and more users joining our application , their personal audio with their permission will be analyzed and used to make  our model more accurate.
 
-
-## Challenges we ran into
-Ideating and making a project in a short span of time was the biggest challenge for us .Creating a machine learning model was challenging as we had to train the model with different panic audio samples which were very difficult to acquire as panic audio sample are not widely available and also are a bit disturbing to listen to  . Also using android studio was a challenge in itself.
-
-## Accomplishments that we're proud of
-While making this project we got to learn a lot of new concepts in app development ,machine leaning and app designing. Also we found out that there are a lot of good resources on the internet which can be in used one or the other way for our benefit. And lastly we are happy that we worked on a application that will help people in times of danger.
+![picture](Teachable Machine/tm2.png)
 
 ## What's next for Therefor You
 We aim to integrate more features that would make this app a lot more effective, and easy to use.
