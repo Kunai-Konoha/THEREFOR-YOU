@@ -20,7 +20,7 @@ So before going out alone in the places , where you don't feel safe or are not c
 The project starts with the base of machine learning model that predicts Anthropogenic Disaster Audio Identification. With the help of Google's latest technologies like Google cloud and Teachable Machine , we were able to create a Tensor Flow model from various audio data sets ,which we then used in our application while developing it using Java on android studio. We collected various audio data sets from internet which we used to create a model which has better accuracy. 
 With more and more users joining our application , their personal audio with their permission will be analyzed and used to make  our model more accurate.
 
-![picture](Teachable Machine Training Data/tm2.png)
+![picture](Teachable Machine/tm2.png)
 
 ## What's next for Therefor You
 We aim to integrate more features that would make this app a lot more effective, and easy to use.
