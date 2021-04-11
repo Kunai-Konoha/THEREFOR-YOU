@@ -8,37 +8,27 @@ Guided from : https://github.com/tensorflow/examples/tree/master/lite/examples/s
 
 Try our Interface for future : https://www.figma.com/proto/R7fP5qylP8myunm7Yin9vc/hackathon-test?node-id=1%3A734&scaling=min-zoom
 
-<!-- TODO(b/124116863): Add app screenshot. -->
 
-## Build the demo using Android Studio
+## Inspiration
+The pandemic has changed the way we live. Public places, streets , restaurants etc have encountered les and less crowd over the past year. We are more isolated in the public places than we ever were before. Now imagine walking home at night all by yourself, with no one around. What happens if you encounter danger? What happens if you are not in a position to reach out for your phone ? What happens if you don't have enough time to use your phone before something bad happens?. Our app therefor YOU comes in handy in all these places.
+We found this research paper to be very helpful while ideating the project:
+https://www.researchgate.net/publication/316709356_Audio_Data_Mining_for_Anthropogenic_Disaster_Identification_An_Automatic_Taxonomy_Approach
 
-### Prerequisites
+## What it does
+So before going out alone in the places , where you don't feel safe or are not comfortable, you can turn on our app and keep the phone nearby you. It will start recognizing audio that comes around you . Our app is built in a way ,where if it encounters a panic sound , help call, scream it automatically recognizes it and sends a text to your selected contact and calls the nearby police station for help, without needing you to touch the phone or take it out.
 
-* If you don't have already, install **[Android Studio](https://developer.android.com/studio/index.html)**, following the instructions on the website.
-
-* You need an Android device and Android development environment with minimum API 21.
-* Android Studio 3.2 or later.
-
-### Building
-* Open Android Studio, and from the Welcome screen, select Open an existing Android Studio project.
-
-* From the Open File or Project window that appears, navigate to and select the THEREFOR YOU/android directory from wherever you cloned the GitHub repo. Click OK.
-
-* If it asks you to do a Gradle Sync, click OK.
-
-* You may also need to install various platforms and tools, if you get errors like "Failed to find target with hash string 'android-21'" and similar.
-Click the Run button (the green arrow) or select Run > Run 'android' from the top menu. You may need to rebuild the project using Build > Rebuild Project.
-
-* If it asks you to use Instant Run, click Proceed Without Instant Run.
-
-* Also, you need to have an Android device plugged in with developer options enabled at this point. See **[here](https://developer.android.com/studio/run/device)** for more details on setting up developer devices.
+## How we built it
+The project starts with the base of machine learning model that predicts Anthropogenic Disaster Audio Identification. With the help of Google's latest technologies like Google cloud and Teachable Machine , we were able to create a Tensor Flow model from various audio data sets ,which we then used in our application while developing it using Java on android studio. We collected various audio data sets from internet which we used to create a model which has better accuracy. 
+With more and more users joining our application , their personal audio with their permission will be analyzed and used to make  our model more accurate.
 
 
-### Model used
-Download the model from **[here](https://storage.googleapis.com/download.tensorflow.org/models/tflite/conv_actions_tflite.zip)**. Extract the zip to get the .tflite and label file.
+## Challenges we ran into
+Ideating and making a project in a short span of time was the biggest challenge for us .Creating a machine learning model was challenging as we had to train the model with different panic audio samples which were very difficult to acquire as panic audio sample are not widely available and also are a bit disturbing to listen to  . Also using android studio was a challenge in itself.
 
-The percentage displayed is average command recognition over a window duration (1000ms).
+## Accomplishments that we're proud of
+While making this project we got to learn a lot of new concepts in app development ,machine leaning and app designing. Also we found out that there are a lot of good resources on the internet which can be in used one or the other way for our benefit. And lastly we are happy that we worked on a application that will help people in times of danger.
 
-### Additional Note
-_Please do not delete the assets folder content_. If you explicitly deleted the files, then please choose *Build*->*Rebuild* from menu to re-download the deleted model files into assets folder.
+## What's next for Therefor You
+We aim to integrate more features that would make this app a lot more effective, and easy to use.
+
 
